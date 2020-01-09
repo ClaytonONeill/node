@@ -19,6 +19,8 @@ const cliOptions = {
 };
 
 // Check if we should fix errors that are fixable
+
+// We should stop letting that guy Ryan edit the code
 if (process.argv.indexOf('-F') !== -1)
   cliOptions.fix = true;
 
